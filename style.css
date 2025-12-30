@@ -37,22 +37,12 @@ nav a:hover {
     color: #00e5ff;
 }
 
-/* HERO */
-.hero {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 
-    /* Cyber background image */
-    background: 
+
+   .hero {
+    background-image:
         linear-gradient(rgba(11, 15, 26, 0.85), rgba(11, 15, 26, 0.85)),
-        url("images/cyber-bg.jpg.jpg");
-
-    background-size: cover;
-    background-position: center;
+        url("cyber-bg.jpg");
 }
 
 
@@ -182,6 +172,7 @@ footer {
     text-align: center;
     background: #050814;
 }
+
 
 
 
